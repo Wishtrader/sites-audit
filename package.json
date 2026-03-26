@@ -1,0 +1,25 @@
+{
+  "name": "sites-audit",
+  "version": "1.0.0",
+  "description": "Site audit tool that collects metrics and writes to Google Sheets",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "analyze:sites": "node ./scripts/analyze-sites.mjs"
+  },
+  "keywords": [
+    "audit",
+    "seo",
+    "sites",
+    "google-sheets"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.3.1",
+    "googleapis": "^168.0.0",
+    "whois-json": "^2.0.4"
+  }
+}
